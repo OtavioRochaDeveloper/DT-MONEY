@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
+# DT Money - Gerenciador Financeiro Pessoal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O **DT Money** é uma aplicação web intuitiva e responsiva desenvolvida para auxiliar na gestão financeira pessoal.  
+Com ele, você pode cadastrar suas receitas e despesas, acompanhar seu saldo em tempo real e ter uma visão clara da sua saúde financeira.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Adicionar e remover itens:** Crie registros detalhados de receitas e despesas através de modais elegantes e fáceis de usar.  
+- **Visualização completa:** Lista abrangente de todas as transações realizadas.  
+- **Cálculos precisos:** Resumo detalhado das finanças, incluindo valores totais de receitas, despesas e saldo.  
+- **Interface responsiva:** Experiência fluida em diferentes dispositivos.  
 
-## Expanding the ESLint configuration
+## 🖼️ Preview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Nova Transação](./assets/preview-modal.jpg)  
+*Modal de criação de nova transação*
 
-- Configure the top-level `parserOptions` property like this:
+![Dashboard](./assets/preview-dashboard.jpg)  
+*Visão geral do dashboard financeiro*
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## 🛠 Tecnologias Utilizadas
+
+- [React](https://react.dev/)  
+- [Node.js](https://nodejs.org/)  
+- [TypeScript](https://www.typescriptlang.org/)  
+- [Styled Components](https://styled-components.com/)  
+- [React Hooks](https://react.dev/reference/react) (useState, useEffect)  
+- [Context API](https://react.dev/reference/react/Context) - Gerenciamento de estado global  
+
+## 📂 Estrutura do Projeto
+
+```bash
+DT-MONEY/
+├── public/          # Arquivos estáticos
+├── src/
+│   ├── assets/      # Imagens e ícones
+│   ├── components/  # Componentes reutilizáveis
+│   ├── contexts/    # Context API para estado global
+│   ├── hooks/       # Hooks personalizados
+│   ├── pages/       # Páginas principais
+│   ├── styles/      # Estilização global e tema
+│   └── App.tsx      # Componente raiz
+└── package.json     # Dependências e scripts
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Como executar o projeto . 
+
+1 . Clone o repositorio - git clone https://github.com/OtavioRochaDeveloper/DT-MONEY.git
+
+2 . Acesse o projeto - cd DT-MONEY
+
+3 . Instale as dependencias - npm install
+
+4 . Execute o servidor de desenvolvimento - npm run dev
+
+5 . Acesse - http://localhost:5173
+
+
