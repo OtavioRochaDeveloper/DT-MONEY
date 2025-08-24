@@ -12,10 +12,12 @@ Com ele, você pode cadastrar suas receitas e despesas, acompanhar seu saldo em 
 
 ## 🖼️ Preview
 
-![Nova Transação](./assets/preview-modal.jpg)  
+![Nova Transação]  ![1737150288986](https://github.com/user-attachments/assets/54b0a54b-94cf-44ab-b544-20daa465aed8)
+
 *Modal de criação de nova transação*
 
-![Dashboard](./assets/preview-dashboard.jpg)  
+![Dashboard] ![1737150275022](https://github.com/user-attachments/assets/786bb6b1-defe-4d59-b3ed-0756c5aa917c)
+ 
 *Visão geral do dashboard financeiro*
 
 ## 🛠 Tecnologias Utilizadas
